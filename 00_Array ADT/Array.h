@@ -31,6 +31,11 @@ public:
     {
         A = a;
     }
+    // Set Length:
+    void setLength(int l)
+    {
+        length = l;
+    }
     void Display();
     void Insert(int index, T x);
     T Delete(int index);
@@ -44,6 +49,8 @@ public:
     void leftRotate();
     void rightShift();
     void rightRotate();
+    void insertInSortedPlace(T x);
+    void RearrangePN();
 };
 template <class T>
 void Array<T>::Display()
