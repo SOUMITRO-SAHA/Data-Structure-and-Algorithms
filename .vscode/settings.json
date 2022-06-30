@@ -11,6 +11,9 @@
         "xutility": "c",
         "iostream": "cpp",
         "xlocale": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "algorithm": "cpp",
+        "chrono": "cpp",
+        "variant": "cpp"
     }
 }
