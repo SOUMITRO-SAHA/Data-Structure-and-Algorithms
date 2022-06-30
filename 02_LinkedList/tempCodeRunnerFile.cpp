@@ -1,5 +1,3 @@
-
-    int i, data;
-    cin>>i>>data;
-    head = push(head,i,data);
-    print(head);
+ext->next;
+    t2 = l.head->next->next->next->next;
+    t2->next = t1;
