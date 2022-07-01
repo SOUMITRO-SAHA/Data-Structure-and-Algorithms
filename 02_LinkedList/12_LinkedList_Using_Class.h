@@ -56,6 +56,7 @@ public:
     int Length();
     void InsertSortedPlace(int value);
     int isLoopedList();
+    void concat(LinkedList a);
 };
 void LinkedList::Display()
 {
