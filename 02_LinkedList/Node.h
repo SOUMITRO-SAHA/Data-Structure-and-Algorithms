@@ -1,3 +1,4 @@
+using namespace std;
 struct Node
 {
     int data;
@@ -6,7 +7,7 @@ struct Node
 // Create Function:
 void Create(int a[], int size)
 {
-    int *t;
+    Node *t;
     head = new Node;
     head->data = a[0];
     head->next = nullptr;
